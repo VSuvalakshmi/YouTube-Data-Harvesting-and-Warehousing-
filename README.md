@@ -1,9 +1,11 @@
 # YouTube-Data-Harvesting-and-Warehousing
 Project Title
 YouTube Data Harvesting and Warehousing using SQL, MongoDB and Streamlit
+
 Skills take away From This Project
 Python scripting, Data Collection,
 MongoDB, Streamlit, API integration, Data Management using MongoDB (Atlas) and SQL  
+
 Domain
 Social Media
 
@@ -14,6 +16,7 @@ The problem statement is to create a Streamlit application that allows users to 
  Ability to collect data for up to 10 different YouTube channels and store them in the data lake by clicking a button.
  Option to select a channel name and migrate its data from the data lake to a SQL database as tables.
 Ability to search and retrieve data from the SQL database using different search options, including joining tables to get channel details.
+
 Approach: 
 Set up a Streamlit app: Streamlit is a great choice for building data visualization and analysis tools quickly and easily. You can use Streamlit to create a simple UI where users can enter a YouTube channel ID, view the channel details, and select channels to migrate to the data warehouse.
 Connect to the YouTube API: You'll need to use the YouTube API to retrieve channel and video data. You can use the Google API client library for Python to make requests to the API.
